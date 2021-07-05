@@ -71,3 +71,60 @@ footer{
     background-color: rgb(219, 219, 219);
     padding: 10px 20px;
 }
+
+.input{
+    padding: 10px 20px;
+    background-color: lightslategray;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+
+}
+.input-msg{
+    padding: 30px 130px;
+    background-color: lightslategray;
+    border: none;
+    border-radius: 5px;
+    margin-top: 1px;
+
+}
+
+
+.submit-button{
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500px;
+    background-color: lightslategray;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.fa-facebook{
+    padding: 20px 20px;
+    background-color: rgb(5, 90, 175);
+    border-radius: 50px;
+    color: white;
+
+}
+.fa-linkedin{
+    padding: 20px 20px;
+    background-color: rgb(5, 90, 175);
+    border-radius: 50px;
+    color: white;
+
+}
+.fa-twitter{
+    padding: 20px 20px;
+    background-color: rgb(5, 90, 175);
+    border-radius: 50px;
+    color: white;
+}
+.fa-google{
+    padding: 20px 20px;
+    background-color: rgb(5, 90, 175);
+    border-radius: 50px;
+    color: white;
+}

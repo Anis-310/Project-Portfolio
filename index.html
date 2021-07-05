@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+SC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -102,16 +103,33 @@
      contact with me.</h3>
 </div>
    <section>
-    <div>
+    <div class="half-width">
         <h4>Phone No: +8801767047310</h4>
         <h4>Email: anis22bd@yahoo.com</h4>
         <h4>Address: 102/5, MHS Ltd. Mohammadpur <br> Dhaka-1207, Bangladesh</h4>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-google"></a>
     </div>
 
-    <div>
-        <input type="text"> <br>
-        <input type="text"> <br>
-        <input type="text"> <br>
+
+    <div class="half-width">
+        <form class="form" action="#">
+            <section>
+                <div>
+                    <label style="font-weight: 500; padding-left: 5px;" for="name">Name</label> <br>
+            <input class="input" type="text"> <br>
+                </div>
+                <div>
+                    <label style="font-weight: 500; padding-left: 5px;" for="email">Email</label> <br>
+                    <input class="input" type="text"> <br>
+                </div>
+            </section>
+            <label style="font-weight: 500; padding-left: 5px;" for="message">Message</label> <br>
+            <input class="input-msg" type="text"> <br>
+            <button class="submit-button">Submit</button>
+        </form>
     </div>
    </section>
 
