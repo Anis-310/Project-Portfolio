@@ -17,10 +17,11 @@ section{
 }
 .half-width img{
     width: 80%;
-    border-radius: 50px;
+    border-radius: 0px 0px 70px 0px;
 }
 #shadow-image{
-    box-shadow: 10px 10px 10px lightgrey;
+    box-shadow: 20px 20px 20px lightgrey;
+    
 }
     
 
@@ -80,7 +81,7 @@ footer{
 
 .input{
     padding: 10px 20px;
-    background-color: lightslategray;
+    background-color: rgb(173, 183, 194);
     border: none;
     border-radius: 5px;
     margin: 5px;
@@ -88,7 +89,7 @@ footer{
 }
 .input-msg{
     padding: 30px 130px;
-    background-color: lightslategray;
+    background-color: rgb(173, 183, 194);
     border: none;
     border-radius: 5px;
     margin-top: 1px;
@@ -101,7 +102,7 @@ footer{
     padding: 10px 20px;
     font-size: 16px;
     font-weight: 500px;
-    background-color: lightslategray;
+    background-color: rgb(173, 183, 194);
     border: none;
     border-radius: 5px;
     margin-top: 10px;
@@ -109,28 +110,36 @@ footer{
 }
 
 .fa-facebook{
-    padding: 20px 20px;
+    padding: 10px 10px;
     background-color: rgb(5, 90, 175);
     border-radius: 50px;
     color: white;
+    margin-left: 20px;
 
 }
 .fa-linkedin{
-    padding: 20px 20px;
+    padding: 10px 10px;
     background-color: rgb(5, 90, 175);
     border-radius: 50px;
     color: white;
 
 }
 .fa-twitter{
-    padding: 20px 20px;
+    padding: 10px 10px;
     background-color: rgb(5, 90, 175);
     border-radius: 50px;
     color: white;
 }
 .fa-google{
-    padding: 20px 20px;
+    padding: 10px 10px;
     background-color: rgb(5, 90, 175);
     border-radius: 50px;
     color: white;
+}
+
+#contact{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+
 }
