@@ -18,10 +18,12 @@ section{
 .half-width img{
     width: 80%;
     border-radius: 50px;
-    box-shadow: 20px 20px rgb(231, 233, 233);
-    
-  
 }
+#shadow-image{
+    box-shadow: 10px 10px 10px lightgrey;
+}
+    
+
 .link-button{
     padding: 10px 20px;
     background-color: tomato;
@@ -44,7 +46,7 @@ section{
 
 
 #servic-field{
-    box-shadow: 10px 10px 10px 10px rgb(212, 212, 212);
+    box-shadow: 10px 10px 10px rgb(212, 212, 212);
     margin: 25px;
     padding-left: 50px;
     padding-right: 40px;
@@ -64,9 +66,12 @@ section{
 
 }
 
+
+
 footer{
     text-decoration: none;
     text-align: center;
+    font-weight: 700px;
     color: tomato;
     background-color: rgb(219, 219, 219);
     padding: 10px 20px;
