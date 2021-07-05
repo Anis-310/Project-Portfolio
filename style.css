@@ -1,0 +1,73 @@
+body{
+    font-family: 'Encode Sans SC', sans-serif;
+    margin: 0%;
+}
+h1{
+    font-size: 50px;
+}
+section{
+    display: flex;
+    margin-bottom: 10%;
+}
+
+.half-width{
+    width: 50%;
+    padding-left: 60px;
+    
+}
+.half-width img{
+    width: 80%;
+    border-radius: 50px;
+    box-shadow: 20px 20px rgb(231, 233, 233);
+    
+  
+}
+.link-button{
+    padding: 10px 20px;
+    background-color: tomato;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 400px;
+    color: white;
+}
+.top-header{
+    background-image: url(images/background.png);
+    background-repeat: no-repeat;
+    background-size: 700px;
+}
+.services{
+    text-align: center;
+    margin-bottom: 5%;
+
+}
+
+
+#servic-field{
+    box-shadow: 10px 10px 10px 10px rgb(212, 212, 212);
+    margin: 25px;
+    padding-left: 50px;
+    padding-right: 40px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: justify;
+
+}
+
+.counting{
+    text-align: center;
+    display: flex;
+    background-color: rgb(231, 228, 228);
+    background-position: center;
+    background-size: cover;
+    padding-right: 20px;
+
+}
+
+footer{
+    text-decoration: none;
+    text-align: center;
+    color: tomato;
+    background-color: rgb(219, 219, 219);
+    padding: 10px 20px;
+}
